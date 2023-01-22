@@ -1,8 +1,8 @@
 import React, {useState, useCallback, useMemo} from 'react';
-import Button from './components/UI/Button/Button'
+import Button from './UI/Button/Button'
 import './App.css';
-import DemoOutput from './components/UI/Button/Demo/DemoOutput';
-import DemoList from './components/UI/Button/Demo/DemoList'
+import DemoOutput from './components/Demo/DemoOutput';
+import DemoList from './components/Demo/DemoList'
 
 function App() {
   const [showPara, setShowPara] = useState(false);
